@@ -1,9 +1,18 @@
 @import 'blocs/header';
 @import 'blocs/footer';
+@import 'blocs/welcome';
+@import 'blocs/reset';
+@import 'blocs/bd';
+@import 'blocs/annimation';
 
 @font-face {
  font-family: "Roboto";
  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+body {
+  height: 100%;
+  width: 100%;
 }
 
 h1 {
