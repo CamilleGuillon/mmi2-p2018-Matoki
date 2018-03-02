@@ -18,10 +18,9 @@ body {
     width: 100%;
 }
 
-@media (min-width: 500px) {
+@media screen and (min-width: 500px) {
   .bd__image {
     height: 100%;
     width: auto;
 }
-
 }
