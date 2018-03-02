@@ -23,6 +23,15 @@
   display: flex;
 }
 
+.home_link:hover {
+  height: 110%;
+  width:auto;
+  display: flex;
+}
+
+ .home_background .home_link:hover{
+  background-color: white ;
+}
 .home_persoImage {
   height: 100%;
   border-radius: 50%;
