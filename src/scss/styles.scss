@@ -1,7 +1,7 @@
 @import 'blocs/header';
 @import 'blocs/footer';
 @import 'blocs/welcome';
-@import 'blocs/reset';
+@import 'reset';
 @import 'blocs/bd';
 @import 'blocs/annimation';
 @import 'blocs/home';
@@ -10,17 +10,24 @@
  font-family: "Roboto";
  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
 }
+@font-face {
+ font-family: "GROBOLD";
+ src: url("../fonts/GROBOLD.ttf") format("truetype");
+}
 
 body {
   height: 100%;
   width: 100%;
 }
 
-h1 {
-  color: brown;
-  font-family: "Roboto", Arial;
 
-  &:hover {
-    color: green;
-  }
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+* {
+  border-sizing: border-box;
 }

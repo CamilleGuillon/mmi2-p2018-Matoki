@@ -1,19 +1,11 @@
-html {
-  height: 100%;
-  width: 100%;
-}
-body {
-  height: 100%;
-
-}
-.welcome_background {
+.welcome {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.welcome_link {
+.welcome__link {
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -23,7 +15,7 @@ body {
   text-decoration: none;
 }
 
-.welcome_logo {
+.welcome__logo {
   width: 90%;
   animation-name: taille;
   animation-duration: 2s;
@@ -31,16 +23,16 @@ body {
   animation-timing-function: linear;
 }
 
-.welcome_text {
-  font-size : 40px;
+.welcome__text {
+  font-size: 40px;
 }
 
 @media (min-width: 1000px) {
-  .welcome_link {
+  .welcome__link {
   width: 60%;
   }
 
-  .welcome_logo {
+  .welcome__logo {
     width: 60%;
   }
 
